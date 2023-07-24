@@ -4,8 +4,11 @@ public class Main {
 
         // Adding web pages to the stack
         webPageStack.addWebPage(new WebPage("https://www.example.com/page1", "2023-07-22 10:30:00"));
-        webPageStack.addWebPage(new WebPage("https://www.example.com/page2", "2023-07-22 11:15:00"));
-        webPageStack.addWebPage(new WebPage("https://www.example.com/page3", "2023-07-22 12:00:00"));
+	webPageStack.addWebPage(new WebPage("https://www.example.com/page1", "2023-07-22 11:30:00"));
+	webPageStack.addWebPage(new WebPage("https://www.example.com/page2", "2023-07-22 10:25:00"));
+	webPageStack.addWebPage(new WebPage("https://www.example.com/page3", "2023-07-22 10:35:00"));
+        webPageStack.addWebPage(new WebPage("https://www.example.com/page4", "2023-07-22 11:45:00"));
+        webPageStack.addWebPage(new WebPage("https://www.example.com/page5", "2023-07-22 12:00:00"));
 
         // Printing the most recent web page without removing it
         WebPage mostRecentPage = webPageStack.peekMostRecentWebPage();
